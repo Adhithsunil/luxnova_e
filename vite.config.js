@@ -8,8 +8,8 @@ export default defineConfig({
     outDir: 'dist', // Ensure the output folder is 'dist'
     rollupOptions: {
       output: {
-        entryFileNames: 'assets/[name].js', // This should create 'index.js' in 'assets'
-        assetFileNames: 'assets/[name][extname]', // Ensures 'index.css' is in 'assets'
+        entryFileNames: 'assets/index.js', // This should create 'index.js' in 'assets'
+        assetFileNames: 'assets/index.css', // Ensures 'index.css' is in 'assets'
       },
     },
   },
